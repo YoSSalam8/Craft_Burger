@@ -22,6 +22,10 @@
         <label for="ln">Last Name</label>
         <input type="text" name="LastName" placeholder="Write Your Last Name..." id="ln"/>
         <br/>
+        <label>Gender:</label>
+        <label>male</label><input type="radio" name="gender" value="Male"/>
+        <label>female</label><input type="radio" name="gender" value="Female"/>
+        <br/>
         <label for="email">Email</label>
         <input type="email" name="Email" placeholder="Write Your Email..." id="email"/>
         <br/>
@@ -29,6 +33,17 @@
         <input type="password" name="Pass1" placeholder="Write Your Password..." id="P1"/>
         <label for="P2">Check Password</label>
         <input type="password" name="Pass2" placeholder="Write Your Password Again..." id="P2"/>
+        <br/>
+        <label for="cit">Choose City</label>
+        <select name="city" id="cit">
+            <option>Nablus</option>
+            <option>Rammallah</option>
+            <option>Jericho</option>
+            <option>Jerusalem</option>
+            <option>Hebron</option>
+            <option>Tulkarem</option>
+            <option>Qalqilyah</option>
+        </select>
         <br/>
         <input type="submit" value="Send" name="Sent"/>
     </form>
